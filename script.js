@@ -6,10 +6,10 @@ canvas.height = window.innerHeight;
 const jacob = document.createElement('img');
 const cats2 = document.createElement('img');
 
-let paintbrush = jacob;
+let paintbrush = cats2;
 
-jacob.src = 'jacob.png';
 cats2.src = 'cats2.png';
+jacob.src = 'jacob.png';
 
 const context = canvas.getContext('2d');
 
@@ -22,10 +22,10 @@ const handleMouseMove = (event) => {
 
 const handleClick = () => {
 	
-	if (paintbrush === jacob) {
-		paintbrush = cats2;
-	} else {
+	if (paintbrush === cats2) {
 		paintbrush = jacob;
+	} else {
+		paintbrush = cats2;
 	}
 }
 
