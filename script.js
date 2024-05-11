@@ -36,13 +36,13 @@ canvas.addEventListener('mousemove', handleMouseMove);
         const text = document.querySelector(".sec-text");
         const textLoad = () => {
             setTimeout(() => {
-                text.textContent = "IT STUDENT";
+                text.textContent = "AN IT STUDENT";
             }, 0);
             setTimeout(() => {
-                text.textContent = "CHRISTIAN";
+                text.textContent = "A CHRISTIAN";
             }, 4000);
             setTimeout(() => {
-                text.textContent = "FILIPINO";
+                text.textContent = "A FILIPINO";
             }, 8000);
              //1s = 1000 milliseconds
         }
